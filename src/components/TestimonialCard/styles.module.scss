@@ -1,0 +1,40 @@
+.card {
+  aspect-ratio: 3/2;
+  width: 400px;
+  height: auto;
+  padding: 3rem;
+
+  background-color: #ffffff;
+  box-shadow: 0 0.5rem 0.5rem 0.1rem #00000020;
+}
+
+.card__header {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.image {
+  aspect-ratio: 1/1;
+  width: 5rem;
+  height: auto;
+}
+
+.header__text_container > div {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.testimonial__body {
+  text-align: center;
+}

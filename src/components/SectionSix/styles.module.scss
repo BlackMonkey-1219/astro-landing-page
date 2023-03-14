@@ -1,0 +1,92 @@
+.heading {
+  text-align: center;
+  color: var(--clr-accent);
+}
+
+.content_container {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  gap: 3rem;
+}
+
+.form {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.form > input,
+.form > textarea,
+.form > button {
+  padding: 1rem 0.5rem;
+  border-radius: 0.25rem;
+  border: 2px solid #0000008e;
+}
+
+.form > button {
+  margin-top: 3rem;
+
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: var(--clr-accent);
+}
+
+.info_container > div {
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.info_container > div > p {
+  display: inline-block;
+  margin: 0;
+
+  font-size: 1.2rem;
+}
+
+.info_container > div > span > img {
+  aspect-ratio: 1/1;
+  width: 2rem;
+  height: auto;
+}
+
+.socialmedia_links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+
+  list-style-type: none;
+}
+
+.socialmedia_links > li > a > img {
+  aspect-ratio: 1/1;
+  width: 2rem;
+  height: auto;
+}
+
+.info_container > img {
+  aspect-ratio: 16/5;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+
+  border-radius: 0.5rem;
+  object-fit: cover;
+}

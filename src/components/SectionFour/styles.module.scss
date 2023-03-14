@@ -1,0 +1,83 @@
+.content_container {
+  width: 100%;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.decoration {
+  width: fit-content;
+  height: fit-content;
+}
+
+.decoration > hr {
+  display: inline-block;
+  width: 2rem;
+  height: fit-content;
+  margin: 0.3rem 1rem 0.3rem 0rem;
+}
+
+.left_content_container {
+  flex: 0 0 40%;
+  width: 40%;
+  height: fit-content;
+}
+
+.left_content_container > h2 > span {
+  color: var(--clr-accent);
+}
+
+.stats {
+  width: 100%;
+  height: fit-content;
+  margin-top: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 3rem;
+}
+
+.stat_item {
+  width: fit-content;
+  text-align: right;
+}
+
+.stat_item > strong {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.services {
+  flex: 0 0 60%;
+  width: 50%;
+  height: fit-content;
+
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.service {
+  width: 46%;
+  height: fit-content;
+}
+
+.services > li:nth-child(1) > article,
+.services > li:nth-child(3) > article {
+  transform: translateY(-5%);
+}
+
+.services > li:nth-child(2) > article,
+.services > li:nth-child(4) > article {
+  transform: translateY(5%);
+}
